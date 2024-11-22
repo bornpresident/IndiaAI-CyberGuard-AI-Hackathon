@@ -46,3 +46,10 @@ cybercrime_project/
 ├── models/            # Trained models
 └── results/           # Evaluation results
 ```
+Usage Example 💻
+```
+from model import CybercrimeClassifier
+
+classifier = CybercrimeClassifier()
+prediction = classifier.predict("Your complaint text here")
+```
