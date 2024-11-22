@@ -14,3 +14,35 @@ Hierarchical BERT-based system for classifying cybercrime complaints into catego
 - F1 Score: 87.2%
 
 ### Category Performance
+Financial Fraud:  91% accuracy
+Cyber Attack:    88% accuracy
+Social Media:    87% accuracy
+
+## Features ⭐
+- Multi-lingual support (Hindi-English)
+- Hierarchical classification
+- Custom BERT architecture
+- Real-time prediction capabilities
+
+## Quick Start 🚀
+```bash
+# Clone repository
+git clone https://github.com/username/cybercrime-classification.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train model
+python src/main.py
+
+# Make predictions
+python src/predict.py
+```
+Directory Structure 📁
+```
+cybercrime_project/
+├── data/               # Dataset files
+├── src/               # Source code
+├── models/            # Trained models
+└── results/           # Evaluation results
+```
